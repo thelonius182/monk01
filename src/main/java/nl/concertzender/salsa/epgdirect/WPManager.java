@@ -5,6 +5,11 @@ package nl.concertzender.salsa.epgdirect;
  */
 public class WPManager {
     public static void main(String[] args) {
-        System.out.println("Hello World");
+        WPManager wpm = new WPManager();
+        System.out.println(wpm.speak());
+    }
+
+    public String speak() {
+        return "Hello World";
     }
 }
