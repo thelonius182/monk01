@@ -5,6 +5,6 @@ package nl.concertzender.salsa.epgdirect;
  */
 public class WPManager {
     public static void main(String[] args) {
-        System.out.println("Hello World, presumably");
+        System.out.println("Hello World");
     }
 }
